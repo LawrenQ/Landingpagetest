@@ -20,7 +20,7 @@ flex-direction: row-reverse;
 }
 .flex2 {  display: flex; 
 
-justify-content: space-evenly
+justify-content: center;
 }
 #one {display: flex;
 width: 200px;
@@ -33,7 +33,9 @@ gap: 8px;
  justify-content: flex-end;
 }
 .flex3 {display: flex;
-    justify-content: space-evenly
+  justify-content: center;
+  gap: 150px;
+  margin-right: 100px;
 }
 .motivation {padding: 30px;
  font-size: 36px;
@@ -43,7 +45,7 @@ gap: 8px;
 }
 
 .flex5 { display: flex;
-background-color: #199dc5;
+background-color:#3882F6;
 height: 100px;
 width: 700px;
 gap: 18px;
@@ -53,6 +55,8 @@ align-items: center;
 flex-wrap: wrap;
 padding: 10px;
 justify-content: center;
+border-radius: 8px;
+text-align: center;
 }
 .flex4 {display: flex;
  background-color: #E5E7EB;
@@ -60,10 +64,10 @@ justify-content: center;
  text-align:center;
  align-items: center;
 }
-.text {
-
-
-
+.text {align-items: center;
+color: white;
+text-align: center;
+margin-left: 100px;
 }
 .header2 {
     display: flex;
@@ -93,7 +97,12 @@ color: white;
 button {margin: auto;
     background-color:#3882F6;
     color: white;
-  border-color: white;
+ text-align: center;
+ display: inline-block;
+ border-radius: 8px;
+ padding: 8px;
+ border-color: white;
+ border-style: solid;
 }
 .hero {display: flex;
     justify-content: center;
@@ -109,4 +118,5 @@ font-size: 18px;
 margin: auto;
 padding: 10px;
 margin-top: 14px;
+text-align: center;
 }
